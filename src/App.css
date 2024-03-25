@@ -1,0 +1,51 @@
+#root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 2px solid blue;
+}
+
+swiper-container {
+  display: flex;
+  justify-self: center;
+  width: 100%;
+  height: auto;
+  /* margin: 0 auto; */
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+.gallery-img {
+  object-fit: contain;
+  display: flex;
+  height: auto;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 1280px;
+}
+
+.gallery-text {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  width: max-content;
+  border: 2px solid red;
+  color: red;
+  z-index: 1000;
+  margin: 0 1rem;
+  padding: 0 1rem;
+}
